@@ -126,3 +126,15 @@ h3 {
     background-color: #eeeeee;
     color: #777;
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 700px) {
+    #upcoming-list,
+    #event-list {
+        grid-template-columns: 1fr;
+    }
+
+    main {
+        padding: 0 15px;
+    }
+}
