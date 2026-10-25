@@ -95,3 +95,34 @@ h3 {
     border-radius: 8px;
 }
 
+/* Buttons */
+.register-btn {
+    background-color: #40916c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-btn:hover {
+    background-color: #1b4332;
+}
+
+.register-btn:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+}
+
+.next-label {
+    background-color: #d8f3dc;
+    color: #1b4332;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.past-event {
+    background-color: #eeeeee;
+    color: #777;
+}
