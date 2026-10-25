@@ -124,3 +124,12 @@ let events = [
         spotsLeft: 150
     }
 ];
+
+// Get the HTML elements
+const upcomingSummary = document.getElementById("upcoming-summary");
+const upcomingList = document.getElementById("upcoming-list");
+const searchInput = document.getElementById("search");
+const categoryFilters = document.getElementById("category-filters");
+const resultsCount = document.getElementById("results-count");
+const eventList = document.getElementById("event-list");
+
