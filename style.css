@@ -26,3 +26,33 @@ h2 {
     margin-bottom: 15px;
 }
 
+/* Upcoming events */
+#upcoming-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+/* Event cards created by JavaScript */
+.event-card {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #b7d7c2;
+    border-radius: 8px;
+}
+
+/* Event titles */
+h3 {
+    color: #2d6a4f;
+}
+
+/* Search input */
+#search {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #95b8a2;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
