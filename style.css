@@ -12,3 +12,17 @@ header {
     text-align: center;
     padding: 20px;
 }
+
+/* Main content */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Section headings */
+h2 {
+    color: #1b4332;
+    margin-bottom: 15px;
+}
+
