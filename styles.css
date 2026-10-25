@@ -1,0 +1,142 @@
+
+/* General styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f8f3;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #2d6a4f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Main content */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Section headings */
+h2 {
+    color: #1b4332;
+    margin-bottom: 15px;
+}
+
+/* Upcoming events */
+#upcoming-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+/* Event cards created by JavaScript */
+.event-card {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #b7d7c2;
+    border-radius: 8px;
+}
+
+/* Event titles */
+h3 {
+    color: #2d6a4f;
+}
+
+/* Search input */
+#search {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #95b8a2;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Category filters */
+#category-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.filter-btn {
+    background-color: #d8f3dc;
+    color: #1b4332;
+    border: 1px solid #74a98b;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+    background-color: #2d6a4f;
+    color: white;
+}
+
+/* All events list */
+#event-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+#event-list li {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #b7d7c2;
+    border-radius: 8px;
+}
+
+/* Buttons */
+.register-btn {
+    background-color: #40916c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-btn:hover {
+    background-color: #1b4332;
+}
+
+.register-btn:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+}
+
+.next-label {
+    background-color: #d8f3dc;
+    color: #1b4332;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.past-event {
+    background-color: #eeeeee !important;
+    color: #777;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 700px) {
+    #upcoming-list,
+    #event-list {
+        grid-template-columns: 1fr;
+    }
+
+    main {
+        padding: 0 15px;
+    }
+}
