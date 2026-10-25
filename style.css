@@ -56,3 +56,25 @@ h3 {
     margin-bottom: 15px;
 }
 
+/* Category filters */
+#category-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.filter-btn {
+    background-color: #d8f3dc;
+    color: #1b4332;
+    border: 1px solid #74a98b;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+    background-color: #2d6a4f;
+    color: white;
+}
