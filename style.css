@@ -78,3 +78,20 @@ h3 {
     background-color: #2d6a4f;
     color: white;
 }
+
+/* All events list */
+#event-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+#event-list li {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #b7d7c2;
+    border-radius: 8px;
+}
+
